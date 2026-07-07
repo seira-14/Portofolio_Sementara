@@ -1,7 +1,7 @@
-# Website Portofolio Pribadi
+# Website Portofolio 
 
 ## Deskripsi
-Website Portofolio Pribadi merupakan website berbasis web yang dirancang untuk menampilkan profil, pengalaman, keterampilan, pendidikan, serta berbagai project yang telah dikerjakan. Website ini dibuat sebagai media personal branding sehingga memudahkan recruiter, dosen, maupun klien untuk mengenal profil dan melihat hasil karya secara profesional.
+Website Portofolio merupakan website berbasis web yang dirancang untuk menampilkan profil, pengalaman, keterampilan, pendidikan, serta berbagai project yang telah dikerjakan. Website ini dibuat sebagai media personal branding sehingga memudahkan recruiter, dosen, maupun klien untuk mengenal profil dan melihat hasil karya secara profesional.
 
 Website dikembangkan menggunakan HTML, CSS, JavaScript, dan PHP, dengan tampilan yang modern, responsif, serta mudah diakses pada berbagai perangkat.
 
