@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio pribadi Alifah Ghina Salsabila - Mahasiswa Sistem Informasi Universitas Budi Luhur." />
+    <meta name="keywords" content="Alifah Ghina Salsabila, Portofolio, Web Developer, Sistem Informasi" />
+    <meta name="author" content="Alifah Ghina Salsabila" />
+    <title>Alifah Ghina Salsabila | Personal Portfolio</title>
+
+    <!-- Favicon: Ikon Hati -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2324395B'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E" />
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top navbar-dark glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+                <i class="bi bi-heart-fill brand-icon"></i>
+                <span>Personal Portfolio</span>
+            </a>
+            <div class="d-flex align-items-center gap-3">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="bi bi-sun-fill"></i>
+                </button>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container position-relative">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-7 order-2 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="hero-greeting">Hello, I'm </span>
+                    <h1 class="hero-name">Alifah Ghina <span class="text-accent">Salsabila</span></h1>
+                    <h2 class="hero-profession">
+                        I'm a <span id="typed" class="text-accent fw-semibold"></span><span class="typed-cursor">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        "Focus on what you can create, not on what you can't control."
+                    </p>
+                    <div class="hero-btns d-flex flex-wrap gap-3 mt-4">
+                        <a href="images/cv.pdf" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm" download>
+                            <i class="bi bi-download me-2"></i> Download CV
+                        </a>
+                        <a href="https://wa.me/085694881113" target="_blank" rel="noopener noreferrer" class="btn btn-outline-accent btn-lg rounded-pill px-4">
+                            <i class="bi bi-chat-dots me-2"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-socials mt-4 d-flex gap-3">
+                        <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/alifah-ghina-salsabila" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://instagram.com/alifah_ghina.s" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:alifahgs@gmail.com" aria-label="Gmail"><i class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 text-center mb-5 mb-lg-0" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-ring"></div>
+                        <img src="images/profile.jpg" alt="Alifah Ghina Salsabila" class="hero-image" />
+                        <div class="floating-badge badge-1 glass-card">
+                            <i class="bi bi-code-slash text-accent"></i>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="floating-badge badge-2 glass-card">
+                            <i class="bi bi-palette text-accent"></i>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="floating-badge badge-3 glass-card">
+                            <i class="bi bi-mortarboard text-accent"></i>
+                            <span>IPK 3.9</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <i class="bi bi-chevron-double-down"></i>
+        </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">Get To Know</span>
+                <h2>About <span class="text-accent">Me</span></h2>
+            </div>
+            <div class="row align-items-center g-5 mt-2">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="images/about.jpg" alt="About Alifah" class="img-fluid rounded-4 shadow-lg" />
+                        <div class="about-exp-badge glass-card">
+                            <h3>2+</h3>
+                            <p>Years<br />Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <h3 class="mb-3">Seorang mahasiswa yang antusias dalam <span class="text-accent">teknologi</span></h3>
+                    <p class="text-muted">
+                        Saya Alifah Ghina Salsabila, mahasiswa Sistem Informasi Universitas Budi Luhur angkatan 2024.
+                        Saya memiliki ketertarikan besar pada pengembangan web, desain antarmuka, dan pemecahan masalah
+                        melalui teknologi. Saya percaya bahwa desain yang baik adalah perpaduan antara estetika dan fungsionalitas.
+                    </p>
+                    <p class="text-muted">
+                        Saat ini saya aktif mempelajari <strong>Front-End Development</strong>, <strong>UI/UX Design</strong>,
+                        serta terus mengasah kemampuan analisis sistem dan basis data. Saya terbuka untuk kolaborasi
+                        dan kesempatan magang yang dapat memperkaya pengalaman profesional saya.
+                    </p>
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-6">
+                            <div class="info-card glass-card">
+                                <i class="bi bi-person-fill text-accent"></i>
+                                <div>
+                                    <small class="text-muted d-block">Nama</small>
+                                    <strong>Alifah Ghina Salsabila</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card glass-card">
+                                <i class="bi bi-mortarboard-fill text-accent"></i>
+                                <div>
+                                    <small class="text-muted d-block">Jurusan</small>
+                                    <strong>Sistem Informasi</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card glass-card">
+                                <i class="bi bi-geo-alt-fill text-accent"></i>
+                                <div>
+                                    <small class="text-muted d-block">Lokasi</small>
+                                    <strong>Tangerang Selatan, Banten</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-card glass-card">
+                                <i class="bi bi-translate text-accent"></i>
+                                <div>
+                                    <small class="text-muted d-block">Bahasa</small>
+                                    <strong>Indonesia, English</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="section-padding bg-dark-soft">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">My Journey</span>
+                <h2>Education <span class="text-accent">Timeline</span></h2>
+            </div>
+            <div class="timeline mt-5">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2024 — 2028 (Expected)</span>
+                        <h4>Universitas Budi Luhur</h4>
+                        <h6 class="text-accent">S1 Sistem Informasi</h6>
+                        <p class="mb-2 text-muted">Fokus pada pengembangan sistem, basis data, rekayasa perangkat lunak, serta antarmuka pengguna.</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-accent-subtle text-accent">IPK 3.90 / 4.00</span>
+                            <span class="badge badge-outline">Dean's List</span>
+                            <span class="badge badge-outline">Active Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">What I Can Do</span>
+                <h2>My <span class="text-accent">Skills</span></h2>
+            </div>
+            <div class="row g-5 mt-2">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h5 class="mb-4 fw-semibold">Technical Skills</h5>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-filetype-html text-accent me-2"></i>HTML5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-filetype-css text-accent me-2"></i>CSS3 / Bootstrap</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-filetype-js text-accent me-2"></i>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-database text-accent me-2"></i>MySQL / Database</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-code-square text-accent me-2"></i>PHP / Laravel</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h5 class="mb-4 fw-semibold">Professional Skills</h5>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-palette text-accent me-2"></i>UI/UX Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-people text-accent me-2"></i>Teamwork</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-lightbulb text-accent me-2"></i>Problem Solving</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-chat-left-text text-accent me-2"></i>Communication</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 88%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span><i class="bi bi-clock-history text-accent me-2"></i>Time Management</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="progress"><div class="progress-bar" style="width: 82%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section-padding bg-dark-soft">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">My Recent Work</span>
+                <h2>Featured <span class="text-accent">Projects</span></h2>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="project-card glass-card h-100">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&auto=format&fit=crop&q=80" alt="Fashion Website" />
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-light btn-sm rounded-pill"><i class="bi bi-eye me-1"></i> Preview</a>
+                            </div>
+                        </div>
+                        <div class="project-body p-4">
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-accent-subtle text-accent">E-Commerce</span>
+                                <span class="badge badge-outline">2025</span>
+                            </div>
+                            <h5 class="fw-bold">Fashion Website</h5>
+                            <p class="text-muted small">Website fashion modern dengan katalog produk, keranjang belanja, dan sistem pembayaran yang responsif dan user-friendly.</p>
+                            <div class="tech-stack mb-3">
+                                <span>HTML</span><span>Bootstrap</span><span>PHP</span><span>MySQL</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i> Live</a>
+                                <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-github me-1"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card glass-card h-100">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&auto=format&fit=crop&q=80" alt="Hair Salon Inventory" />
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-light btn-sm rounded-pill"><i class="bi bi-eye me-1"></i> Preview</a>
+                            </div>
+                        </div>
+                        <div class="project-body p-4">
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-accent-subtle text-accent">System</span>
+                                <span class="badge badge-outline">2025</span>
+                            </div>
+                            <h5 class="fw-bold">Hair Salon Inventory</h5>
+                            <p class="text-muted small">Sistem manajemen inventaris untuk salon rambut dengan fitur stok produk, laporan penjualan, dan dashboard admin.</p>
+                            <div class="tech-stack mb-3">
+                                <span>Laravel</span><span>MySQL</span><span>Bootstrap</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i> Live</a>
+                                <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-github me-1"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card glass-card h-100">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format&fit=crop&q=80" alt="UMKM Website" />
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-light btn-sm rounded-pill"><i class="bi bi-eye me-1"></i> Preview</a>
+                            </div>
+                        </div>
+                        <div class="project-body p-4">
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-accent-subtle text-accent">Landing</span>
+                                <span class="badge badge-outline">2024</span>
+                            </div>
+                            <h5 class="fw-bold">UMKM Website</h5>
+                            <p class="text-muted small">Website profil UMKM dengan katalog produk, informasi kontak, dan integrasi WhatsApp untuk pemesanan langsung.</p>
+                            <div class="tech-stack mb-3">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i> Live</a>
+                                <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-accent rounded-pill"><i class="bi bi-github me-1"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">Career Path</span>
+                <h2>Work <span class="text-accent">Experience</span></h2>
+            </div>
+            <div class="timeline mt-5">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2025 — Present</span>
+                        <h4>Freelance Web Developer</h4>
+                        <h6 class="text-accent">Self-Employed</h6>
+                        <p class="text-muted">Mengerjakan berbagai proyek website untuk UMKM dan individu, mulai dari landing page hingga sistem informasi sederhana.</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge badge-outline">Remote</span>
+                            <span class="badge badge-outline">Full-time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2024 — 2025</span>
+                        <h4>Staff Divisi IT</h4>
+                        <h6 class="text-accent">Organisasi Kampus</h6>
+                        <p class="text-muted">Bertanggung jawab atas pengelolaan website organisasi, dokumentasi digital, serta desain materi promosi.</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge badge-outline">On-site</span>
+                            <span class="badge badge-outline">Part-time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2024</span>
+                        <h4>Asisten Praktikum</h4>
+                        <h6 class="text-accent">Laboratorium Kampus</h6>
+                        <p class="text-muted">Membantu dosen dalam membimbing praktikan pada mata kuliah pemrograman dasar dan basis data.</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge badge-outline">On-site</span>
+                            <span class="badge badge-outline">Semester</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== ACHIEVEMENTS ===================== -->
+    <section id="achievements" class="section-padding bg-dark-soft">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">Recognition</span>
+                <h2>My <span class="text-accent">Achievements</span></h2>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in">
+                    <div class="achievement-card glass-card text-center p-4 h-100">
+                        <div class="achievement-icon"><i class="bi bi-trophy-fill"></i></div>
+                        <h5 class="fw-bold mt-3">Juara Math Problem Solving</h5>
+                        <p class="text-muted small mb-0">Kompetisi Internasional COMAP 2026.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="achievement-card glass-card text-center p-4 h-100">
+                        <div class="achievement-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5 class="fw-bold mt-3">Dean's List</h5>
+                        <p class="text-muted small mb-0">Mahasiswa berprestasi dengan IPK di atas 3.75.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="achievement-card glass-card text-center p-4 h-100">
+                        <div class="achievement-icon"><i class="bi bi-star-fill"></i></div>
+                        <h5 class="fw-bold mt-3">Perwakilan Nasional</h5>
+                        <p class="text-muted small mb-0">Mewakili Kampus pada pembinaan di bawah Kemdiktisaintek.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="achievement-card glass-card text-center p-4 h-100">
+                        <div class="achievement-icon"><i class="bi bi-patch-check-fill"></i></div>
+                        <h5 class="fw-bold mt-3">Certified Google Data Analyst</h5>
+                        <p class="text-muted small mb-0">Sertifikasi Google Data Analyst dari platform Coursera.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CERTIFICATES ===================== -->
+    <section id="certificates" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">My Credentials</span>
+                <h2>Certificates & <span class="text-accent">Courses</span></h2>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="cert-card glass-card h-100">
+                        <img src="images/google.jpg" alt="Certificate" />
+                        <div class="p-4">
+                            <h6 class="fw-bold">Google Data Analyst</h6>
+                            <p class="text-muted small mb-3">Coursera • 2026</p>
+                            <button class="btn btn-sm btn-outline-accent rounded-pill" data-bs-toggle="modal" data-bs-target="#certModal1">
+                                <i class="bi bi-eye me-1"></i> View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-card glass-card h-100">
+                        <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&auto=format&fit=crop&q=80" alt="Certificate" />
+                        <div class="p-4">
+                            <h6 class="fw-bold">JavaScript Algorithms</h6>
+                            <p class="text-muted small mb-3">freeCodeCamp • 2024</p>
+                            <button class="btn btn-sm btn-outline-accent rounded-pill" data-bs-toggle="modal" data-bs-target="#certModal2">
+                                <i class="bi bi-eye me-1"></i> View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-card glass-card h-100">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&auto=format&fit=crop&q=80" alt="Certificate" />
+                        <div class="p-4">
+                            <h6 class="fw-bold">UI/UX Design Fundamentals</h6>
+                            <p class="text-muted small mb-3">Coursera • 2024</p>
+                            <button class="btn btn-sm btn-outline-accent rounded-pill" data-bs-toggle="modal" data-bs-target="#certModal3">
+                                <i class="bi bi-eye me-1"></i> View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modals -->
+    <div class="modal fade" id="certModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">Web Development Bootcamp</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/google.jpg" class="img-fluid rounded-3" alt="Certificate" />
+                    <p class="mt-3 text-muted">Sertifikat penyelesaian bootcamp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="certModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">JavaScript Algorithms and Data Structures</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=900&auto=format&fit=crop&q=80" class="img-fluid rounded-3" alt="Certificate" />
+                    <p class="mt-3 text-muted">Sertifikasi resmi dari freeCodeCamp yang membuktikan pemahaman mendalam tentang algoritma dan struktur data JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="certModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content glass-card border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">UI/UX Design Fundamentals</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=900&auto=format&fit=crop&q=80" class="img-fluid rounded-3" alt="Certificate" />
+                    <p class="mt-3 text-muted">Sertifikat dari Coursera mengenai dasar-dasar desain UI/UX, wireframing, prototyping, dan user research.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section-padding bg-dark-soft">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <span class="subtitle">Get In Touch</span>
+                <h2>Contact <span class="text-accent">Me</span></h2>
+            </div>
+            <div class="row g-5 mt-2">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h4 class="fw-bold mb-3">Mari berkolaborasi!</h4>
+                    <p class="text-muted">
+                        Saya terbuka untuk diskusi proyek, kesempatan magang, kolaborasi, atau sekadar menyapa.
+                        Jangan ragu untuk menghubungi saya melalui salah satu kanal berikut.
+                    </p>
+                    <div class="contact-list">
+                        <a href="https://wa.me/085694881113" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                            <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
+                            <div>
+                                <small class="text-muted d-block">WhatsApp</small>
+                                <strong>+62 856-9488-1113</strong>
+                            </div>
+                            <i class="bi bi-arrow-right ms-auto"></i>
+                        </a>
+                        <a href="mailto:alifahgs@gmail.com" class="contact-item glass-card">
+                            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <small class="text-muted d-block">Gmail</small>
+                                <strong>alifahgs@gmail.com</strong>
+                            </div>
+                            <i class="bi bi-arrow-right ms-auto"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/alifah-ghina-salsabila" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                            <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+                            <div>
+                                <small class="text-muted d-block">LinkedIn</small>
+                                <strong>Alifah Ghina Salsabila</strong>
+                            </div>
+                            <i class="bi bi-arrow-right ms-auto"></i>
+                        </a>
+                        <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                            <div class="contact-icon"><i class="bi bi-github"></i></div>
+                            <div>
+                                <small class="text-muted d-block">GitHub</small>
+                                <strong>@seira-14</strong>
+                            </div>
+                            <i class="bi bi-arrow-right ms-auto"></i>
+                        </a>
+                        <a href="https://instagram.com/alifah_ghina.s" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                            <div class="contact-icon"><i class="bi bi-instagram"></i></div>
+                            <div>
+                                <small class="text-muted d-block">Instagram</small>
+                                <strong>@alifah_ghina.s</strong>
+                            </div>
+                            <i class="bi bi-arrow-right ms-auto"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <!-- Notification Alert -->
+                    <div id="formNotification" class="alert alert-dismissible fade" role="alert" style="display: none;">
+                        <div class="d-flex align-items-center">
+                            <i class="bi me-2" id="notifIcon"></i>
+                            <span id="notifMessage"></span>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form glass-card p-4 p-md-5" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Nama Lengkap <span class="text-danger">*</span></label>
+                                <input type="text" name="fullname" id="inputName" class="form-control" placeholder="Masukkan nama Anda" autocomplete="name" required />
+                                <div class="invalid-feedback">Nama wajib diisi</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Email <span class="text-danger">*</span></label>
+                                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="email@contoh.com" autocomplete="email" required />
+                                <div class="invalid-feedback">Format email tidak valid</div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small fw-semibold">Subjek <span class="text-danger">*</span></label>
+                                <input type="text" name="subject" id="inputSubject" class="form-control" placeholder="Tentang apa?" required />
+                                <div class="invalid-feedback">Subjek wajib diisi</div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small fw-semibold">Pesan <span class="text-danger">*</span></label>
+                                <textarea name="message" id="inputMessage" class="form-control" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                                <div class="invalid-feedback">Pesan wajib diisi</div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" id="submitBtn" class="btn btn-primary btn-lg rounded-pill px-5 w-100">
+                                    <i class="bi bi-send me-2"></i> Kirim Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h5 class="fw-bold mb-2">Personal Portfolio<span class="text-accent">.</span></h5>
+                    <p class="text-muted small mb-0">Membangun pengalaman digital yang bermakna.</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3 text-center text-md-start">Quick Links</h6>
+                    <ul class="footer-links text-center text-md-start">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <h6 class="fw-bold mb-3">Follow Me</h6>
+                    <div class="footer-socials d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="https://github.com/seira-14" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/alifah-ghina-salsabila" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://instagram.com/alifah_ghina.s" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:alifahgs@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 opacity-25" />
+            <div class="text-center small text-muted">
+                © 2026 Alifah Ghina Salsabila. All rights reserved. Crafted with <i class="bi bi-heart-fill text-accent"></i> & lots of coffee.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
