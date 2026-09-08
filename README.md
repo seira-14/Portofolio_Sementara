@@ -50,7 +50,7 @@ website_portofolio/
 C:\xampp\htdocs\
 ```
 
-2. Jalankan Apache dan MySQL melalui XAMPP Control Panel.
+2. Jalankan / Start Apache dan MySQL melalui XAMPP Control Panel.
 
 3. Buat database sesuai file SQL yang tersedia pada folder `backend`.
 
